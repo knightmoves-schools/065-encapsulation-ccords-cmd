@@ -1,10 +1,6 @@
 
 let length = 5;
 let height = 10;
-
-function calculateArea(length, height){
-    return length * height;
-}
 class rectangle {
     constructor(length,height) {
         this.length = length;
@@ -15,3 +11,4 @@ class rectangle {
     };
 };
 document.getElementById('result').innerHTML = rectangle;
+
