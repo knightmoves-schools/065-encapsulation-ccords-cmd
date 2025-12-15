@@ -5,3 +5,5 @@ let height = 10;
 function calculateArea(){
     return length * height;
 }
+
+document.getElementById('result').innerHTML = calculateArea;
