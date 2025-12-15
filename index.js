@@ -2,6 +2,6 @@
 let length = 5;
 let height = 10;
 
-function calculateArea(length, height){
+function calculateArea(){
     return length * height;
 }
